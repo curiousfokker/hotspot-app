@@ -120,6 +120,7 @@ export default {
     learn_more: 'Learn More',
     cancel: 'Cancel',
     ok: 'OK',
+    yes: 'Yes',
     unknown: 'Unknown',
     online: 'Online',
     offline: 'Offline',
@@ -1251,4 +1252,9 @@ export default {
   },
   explore_hotspots: 'Explore Hotspots',
   explore_validators: 'Explore Validators',
+  linkWallet: {
+    title: 'Link Helium Wallet to\n{{appName}}?',
+    body:
+      'by linking helium to {{appName}}, you can safely sign blockchain transactions without re-entering your seed phrase.',
+  },
 }
